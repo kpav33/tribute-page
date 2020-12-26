@@ -18,13 +18,17 @@
         color: black  ;
       }
 
-      main {
-        background-color: #dbd9d8;
+      body {
+        background-color: rgb(209, 209, 209);
+        width: 90%;
+        margin: 0 auto;
       }
 
       section {
         text-align: justify;
-        margin: 0 20px;
+        margin: 20px;
+        border: 5px solid black;
+        padding: 0px 40px;
       }
 
       section h2 {
@@ -37,8 +41,8 @@
       }
 
       #img-div {
-        background-color: white;
-        margin: 0 30px;
+        margin: 20px;
+        border: 5px solid black;
       }
 
       figure img {
@@ -55,6 +59,19 @@
       }
       a:hover {
         color: rgb(255, 255, 255);
+      }
+      blockquote {
+        border: 4mm ridge rgba(99, 99, 99, .6);
+        font-style: italic;
+        width: 50%;
+        margin: 30px auto;
+      }
+      blockquote cite {
+        display: block;
+        font-style: normal;
+      }
+      blockquote:hover {
+        transform: scale(1.3);
       }
     </style>
   </head>
@@ -122,6 +139,9 @@
         </ul>
         <p id="link">Text for this task was gathered from Wikipedia. <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Herman_Poto%C4%8Dnik">Learn more about Herman Potočnik</a>.</p>
       </section>
+      <blockquote>
+        <p>Since the beginning of time, mankind has considered it as an expression of its Earthly weakness and inadequacy to be bound to the Earth, to be unable to free itself from the mysterious shackles of gravity.<cite>Herman Potočnik</cite></p>
+      </blockquote>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
